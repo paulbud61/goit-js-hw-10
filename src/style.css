@@ -1,0 +1,83 @@
+/* style.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+.breed-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.loader,
+.error {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.loader::after {
+  content: 'Loading...';
+  display: block;
+  font-size: 16px;
+  color: #333;
+}
+
+.error::after {
+  content: 'Oops! Something went wrong! Try reloading the page.';
+  display: block;
+  font-size: 16px;
+  color: #d9534f;
+}
+
+.cat-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box-img img {
+  max-width: 100%;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.tittle {
+  font-size: 24px;
+  color: #333;
+}
+
+.subtitle {
+  max-width: 400px;
+  margin: 10px auto;
+  color: #555;
+}
+
+.breed {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 10px;
+}
